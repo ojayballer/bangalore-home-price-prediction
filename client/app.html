@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bangalore Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="img"></div>
+    <form class="form">
+        <!-- Square Feet Input -->
+        <h2>Area (Square Feet)</h2>
+        <input class="area" type="number" id="uiSqft" name="Squareft" value="1000" required>
+
+        <!-- Bedrooms Input -->
+        <h2>Bedrooms</h2>
+        <div class="switch-field">
+            <input type="radio" id="radio-bedroom-1" name="uiBedrooms" value="1">
+            <label for="radio-bedroom-1">1</label>
+            <input type="radio" id="radio-bedroom-2" name="uiBedrooms" value="2" checked>
+            <label for="radio-bedroom-2">2</label>
+            <input type="radio" id="radio-bedroom-3" name="uiBedrooms" value="3">
+            <label for="radio-bedroom-3">3</label>
+            <input type="radio" id="radio-bedroom-4" name="uiBedrooms" value="4">
+            <label for="radio-bedroom-4">4</label>
+            <input type="radio" id="radio-bedroom-5" name="uiBedrooms" value="5">
+            <label for="radio-bedroom-5">5</label>
+        </div>
+
+        <!-- Bathroom Input -->
+        <h2>Bathrooms</h2>
+        <div class="switch-field">
+            <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1">
+            <label for="radio-bath-1">1</label>
+            <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked>
+            <label for="radio-bath-2">2</label>
+            <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3">
+            <label for="radio-bath-3">3</label>
+            <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4">
+            <label for="radio-bath-4">4</label>
+            <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5">
+            <label for="radio-bath-5">5</label>
+        </div>
+
+        <!-- Area Type Dropdown -->
+        <h2>Area Type</h2>
+        <select id="uiArea" name="area_type" required>
+            <option value="" disabled selected>Choose an Area Type</option>
+            <!-- Will be filled dynamically by JS -->
+        </select>
+
+        <!-- Location Dropdown -->
+        <h2>Location</h2>
+        <select class="location" name="uiLocations" id="uiLocations" required>
+            <option value="" disabled selected>Choose a Location</option>
+            <!-- Will be filled dynamically by JS -->
+        </select>
+
+        <!-- Submit Button -->
+        <button class="submit" type="button" onclick="onClickedEstimatePrice()">Estimate Price</button>
+
+        <!-- Result Display -->
+        <div id="uiEstimatedPrice" class="result"><h2></h2></div>
+    </form>
+</body>
+</html>
