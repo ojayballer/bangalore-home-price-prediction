@@ -1,0 +1,14 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore model artifacts
+#server/artifacts/*.pickle
+#server/artifacts/*.json
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
