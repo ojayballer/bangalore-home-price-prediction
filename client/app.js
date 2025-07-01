@@ -4,7 +4,6 @@ function onPageLoad() {
     var locationUrl = "http://127.0.0.1:5000/get_location_names";
     var areaTypeUrl = "http://127.0.0.1:5000/get_area_types";
 
-    // Fetch locations
     $.get(locationUrl, function(data, status) {
         console.log("got response for get_location_names request");
         if (data) {
@@ -17,7 +16,7 @@ function onPageLoad() {
         }
     });
 
-    // Fetch area types
+    
     $.get(areaTypeUrl, function(data, status) {
         console.log("got response for get_area_types request");
         if (data) {

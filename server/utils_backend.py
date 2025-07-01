@@ -11,7 +11,7 @@ def get_estimated_prices(location, total_sqft, bath, bedroom, area_type):
     global __data_columns
     
     if not area_type:
-      raise ValueError("Area type is not selected.")
+      raise ValueError("area_type is not selected.")
 
     x = np.zeros(len(__data_columns))
     x[0] = total_sqft
