@@ -1,4 +1,10 @@
-# Bangalore Home Price Prediction
+#Bangalore Home Price Prediction
+
+![Built with Python](https://img.shields.io/badge/Built%20with-Python-blue?style=flat&logo=python)
+![Project Type](https://img.shields.io/badge/Project-Machine%20Learning-brightgreen)
+![Deployed with Flask](https://img.shields.io/badge/Deployed%20With-Flask-black?logo=flask)
+![Status](https://img.shields.io/badge/Status-Completed-blue)
+
 
 This is a machine learning web application that predicts house prices in Bangalore based on key features such as location, area, number of bedrooms, bathrooms, and area type. It’s built using **Python**, **scikit-learn**, and **Flask** for deployment.
 
