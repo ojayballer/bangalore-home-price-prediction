@@ -53,5 +53,3 @@ The backend uses a **Linear Regression model** trained on cleaned and preprocess
 - Organizing machine learning projects for deployment and portfolio use
 
 ---
-
-> 💡This project showcases my ability to move beyond model training — to full end-to-end deployment and practical use.
