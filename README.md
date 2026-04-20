@@ -1,16 +1,10 @@
 #Bangalore Home Price Prediction
 
-![Built with Python](https://img.shields.io/badge/Built%20with-Python-blue?style=flat&logo=python)
-![Project Type](https://img.shields.io/badge/Project-Machine%20Learning-brightgreen)
-![Deployed with Flask](https://img.shields.io/badge/Deployed%20With-Flask-black?logo=flask)
-![Status](https://img.shields.io/badge/Status-Completed-blue)
-
-
 This is a machine learning web application that predicts house prices in Bangalore based on key features such as location, area, number of bedrooms, bathrooms, and area type. It’s built using **Python**, **scikit-learn**, and **Flask** for deployment.
 
 ---
 
-## 📊 Dataset
+**Dataset**
 
 - **Source**: [Kaggle - Bengaluru House Price Data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
 - **Features Used**:
@@ -22,7 +16,7 @@ This is a machine learning web application that predicts house prices in Bangalo
 
 ---
 
-## ⚙️ What the Model Does
+##  What the Model Does
 
 The backend uses a **Linear Regression model** trained on cleaned and preprocessed data to estimate the price of a house in lakhs. The pipeline includes:
 
@@ -35,7 +29,7 @@ The backend uses a **Linear Regression model** trained on cleaned and preprocess
 
 ---
 
-## 🖥 How It Works
+## How It Works
 
 - The **frontend** collects user inputs:
   - Area (in sqft)
